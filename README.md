@@ -7,7 +7,7 @@ The MNSC model proposed in this project integrates ShuffleAttention and CBAM in 
 MNSC/
 ├── idea.pth                   
 ├── _pycache_.py                 
-├── model.py                   # Definition of the improved AlexNet model
+├── model.py                   # Definition of the improved MNSC model
 ├── train.py                     # Model train script
 ├── predict.py                # Model prediction script
 └── tomoto_split/
