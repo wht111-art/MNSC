@@ -17,6 +17,7 @@ MNSC/
 ```
 # Core Technologies 
 __1.Integration of the ShuffleAttention mechanism__：This module enhances inter-channel information interaction, enabling more effective extraction of core lesion features.
+
   __2. Parallel incorporation of the CBAM mechanism__: By operating in parallel with ShuffleAttention, CBAM complements channel-wise attention with spatial feature refinement, collectively strengthening the network’s ability to identify and highlight diagnostically relevant regions, which contributes to improved classification accuracy.  
   __3. Adoption of label-smoothed cross-entropy loss__: Replacing the conventional cross-entropy loss with its label-smoothed variant helps mitigate overfitting and enhances model generalization.
 # Recommended Environment
@@ -44,7 +45,7 @@ Each category folder contains tomato leaf images corresponding to that category.
 # Model Training 
 Use the `train.py` script for model training，after changing the path:
 ```
-python MNSC_train.py
+python train.py
 ```
 # Training Parameter Description
 During the training process, model weights will be automatically saved. After training, the model performance will be evaluated on the test set.
