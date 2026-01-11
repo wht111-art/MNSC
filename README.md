@@ -16,9 +16,9 @@ MNSC/
     └── test/                  # Test set
 ```
 # Core Technologies 
-__1.Integration of the ShuffleAttention mechanism__：This module enhances inter-channel information interaction, enabling more effective extraction of core lesion features.
-__2.Parallel incorporation of the CBAM mechanism__：By operating in parallel with ShuffleAttention, CBAM complements channel-wise attention with spatial feature refinement, collectively strengthening the network’s ability to identify and highlight diagnostically relevant regions, which contributes to improved classification accuracy.  
-__3.Adoption of label-smoothed cross-entropy loss__：Replacing the conventional cross-entropy loss with its label-smoothed variant helps mitigate overfitting and enhances model generalization.
+__1. Integration of the ShuffleAttention mechanism__: This module enhances inter-channel information interaction, enabling more effective extraction of core lesion features.
+__2. Parallel incorporation of the CBAM mechanism__: By operating in parallel with ShuffleAttention, CBAM complements channel-wise attention with spatial feature refinement, collectively strengthening the network’s ability to identify and highlight diagnostically relevant regions, which contributes to improved classification accuracy.  
+__3. Adoption of label-smoothed cross-entropy loss__: Replacing the conventional cross-entropy loss with its label-smoothed variant helps mitigate overfitting and enhances model generalization.
 # Recommended Environment
 Python 3.10.19  
 PyTorch == 2.6.0 + cu124
