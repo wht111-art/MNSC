@@ -54,7 +54,7 @@ python train.py
 During the training process, model weights will be automatically saved. After training, the model performance will be evaluated on the test set.
 | Initial learning rate | Epoch| Batch size | 
 |:------|:----:|-------:|
-|0.001 | 100  | 16   | 
+|0.001 | 100  | 32   | 
 ## Model Checkpoint
 Due to file size limitations, the trained model checkpoint (best_model.pth) is not included in this repository. It is available upon reasonable request to the corresponding author (wanghuiting@huuc.edu.cn). To reproduce the reported results, simply run `python train.py` with the default hyperparameters described above.
 # Performance Evaluation
