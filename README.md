@@ -6,7 +6,9 @@ The MNSC model proposed in this project integrates ShuffleAttention and CBAM in 
 ```
 MNSC/
 ├── idea.pth                   
-├── _pycache_.py                 
+├── _pycache_.py
+├── classify.py               # data partitioning
+├── requirements.txt  
 ├── model.py                   # Definition of the improved MNSC model
 ├── train.py                     # Model train script
 ├── predict.py                # Model prediction script
