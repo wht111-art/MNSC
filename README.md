@@ -43,6 +43,8 @@ dataset/
 ```
 
 Each category folder contains tomato leaf images corresponding to that category.
+## Data Usage Statement
+The self-collected tomato leaf dataset used in this study is provided under the CC BY-NC 4.0 License. The public tomato disease dataset is used under its original license as cited in the paper references. Please respect the data usage policies when using these datasets.
 # Model Training 
 Use the `train.py` script for model training，after changing the path:
 ```
@@ -52,7 +54,9 @@ python train.py
 During the training process, model weights will be automatically saved. After training, the model performance will be evaluated on the test set.
 | Initial learning rate | Epoch| Batch size | 
 |:------|:----:|-------:|
-|0.001 | 100  | 16   |  
+|0.001 | 100  | 16   | 
+## Model Checkpoint
+Due to file size limitations, the trained model checkpoint (best_model.pth) is not included in this repository. It is available upon reasonable request to the corresponding author (wanghuiting@huuc.edu.cn). To reproduce the reported results, simply run `python train.py` with the default hyperparameters described above.
 # Performance Evaluation
 After the training is completed, the model will be evaluated on the test set, and key metrics such as accuracy will be output.
 # References and contact information
