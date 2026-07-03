@@ -14,8 +14,8 @@ import glob
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-batch_size = 16
-num_epochs = 10
+batch_size = 32
+num_epochs = 100
 
 data_transform = {
     "train": transforms.Compose([
